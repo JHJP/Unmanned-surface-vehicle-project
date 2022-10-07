@@ -1,0 +1,67 @@
+[0.067s] Invoking command in '/home/papag/basic_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/papag/av_ws/install/kmou_robot_spawner_pkg:/home/papag/av_ws/install/kmou_robot_controller_pkg:/home/papag/nav2_ws/install/nav2_gazebo_spawner:/home/papag/dev_ws/install/warehouse_robot_spawner_pkg:/home/papag/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/papag/basic_ws/build/basic_mobile_robot -- -j4 -l4
+[0.149s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.234s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.652s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.812s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.820s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.822s] -- Added test 'lint_cmake' to check CMake code style
+[0.824s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.830s] -- Added test 'xmllint' to check XML markup files
+[0.835s] -- Configuring done
+[0.842s] -- Generating done
+[0.845s] -- Build files have been written to: /home/papag/basic_ws/build/basic_mobile_robot
+[0.886s] Invoked command in '/home/papag/basic_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/papag/av_ws/install/kmou_robot_spawner_pkg:/home/papag/av_ws/install/kmou_robot_controller_pkg:/home/papag/nav2_ws/install/nav2_gazebo_spawner:/home/papag/dev_ws/install/warehouse_robot_spawner_pkg:/home/papag/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/papag/basic_ws/build/basic_mobile_robot -- -j4 -l4
+[0.961s] Invoking command in '/home/papag/basic_ws/build/basic_mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/papag/av_ws/install/kmou_robot_spawner_pkg:/home/papag/av_ws/install/kmou_robot_controller_pkg:/home/papag/nav2_ws/install/nav2_gazebo_spawner:/home/papag/dev_ws/install/warehouse_robot_spawner_pkg:/home/papag/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/papag/basic_ws/build/basic_mobile_robot
+[0.979s] -- Install configuration: ""
+[0.980s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/config
+[0.980s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+[0.981s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch
+[0.982s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v3.launch.py
+[0.983s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+[0.983s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v2.launch.py
+[0.983s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v4.launch.py
+[0.984s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/maps
+[0.984s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes
+[0.984s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
+[0.985s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
+[0.985s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
+[0.985s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wheel.stl
+[0.986s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
+[0.986s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
+[0.986s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models
+[0.986s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+[0.987s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf
+[0.987s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description
+[0.987s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes
+[0.988s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl
+[0.988s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl
+[0.988s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl
+[0.988s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wheel.stl
+[0.989s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/bicep.stl
+[0.989s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl
+[0.990s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
+[0.990s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+[0.991s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/params
+[0.991s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz
+[0.991s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
+[0.991s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/src
+[0.991s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds
+[0.992s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world
+[0.992s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/smalltown.world
+[0.992s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/kmou.world
+[0.992s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/ament_index/resource_index/package_run_dependencies/basic_mobile_robot
+[0.993s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/ament_index/resource_index/parent_prefix_path/basic_mobile_robot
+[0.994s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.sh
+[0.994s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/ament_prefix_path.dsv
+[0.995s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.sh
+[0.996s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/environment/path.dsv
+[0.996s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.bash
+[0.997s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.sh
+[0.997s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.zsh
+[0.998s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/local_setup.dsv
+[0.999s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.dsv
+[1.000s] -- Up-to-date: /home/papag/basic_ws/install/basic_mobile_robot/share/ament_index/resource_index/packages/basic_mobile_robot
+[1.000s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig.cmake
+[1.000s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/cmake/basic_mobile_robotConfig-version.cmake
+[1.001s] -- Installing: /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/package.xml
+[1.005s] Invoked command in '/home/papag/basic_ws/build/basic_mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/papag/av_ws/install/kmou_robot_spawner_pkg:/home/papag/av_ws/install/kmou_robot_controller_pkg:/home/papag/nav2_ws/install/nav2_gazebo_spawner:/home/papag/dev_ws/install/warehouse_robot_spawner_pkg:/home/papag/dev_ws/install/warehouse_robot_controller_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/papag/basic_ws/build/basic_mobile_robot

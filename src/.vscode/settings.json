@@ -1,0 +1,15 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/papag/av_ws/install/kmou_robot_spawner_pkg/lib/python3.8/site-packages",
+        "/home/papag/av_ws/install/kmou_robot_controller_pkg/lib/python3.8/site-packages",
+        "/home/papag/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages",
+        "/home/papag/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages",
+        "/home/papag/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages",
+        "/home/papag/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages",
+        "/home/papag/nav2_ws/install/nav2_common/lib/python3.8/site-packages",
+        "/home/papag/dev_ws/install/warehouse_robot_spawner_pkg/lib/python3.8/site-packages",
+        "/home/papag/dev_ws/install/warehouse_robot_controller_pkg/lib/python3.8/site-packages",
+        "/home/papag/dev_ws/install/turtlesim/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

@@ -1,5 +1,8 @@
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v3.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v2.launch.py
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v4.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/robot_base.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/wrist.stl
@@ -7,6 +10,7 @@
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/bicep.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/elbow.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v1.urdf
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_v2.urdf
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/arm_base.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/robot_base.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/wrist.stl

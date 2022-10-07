@@ -145,6 +145,82 @@
     </sensor>
   </link>
 
+  <!-- ****************************** LIDAR *****************************    -->
+  <link name="lidar_link">    
+    <inertial>
+      <pose>0.215 0 0.13 0 0 0</pose>
+      <inertia>
+        <ixx>0.001</ixx>
+        <ixy>0.000</ixy>
+        <ixz>0.000</ixz>
+        <iyy>0.001</iyy>
+        <iyz>0.000</iyz>
+        <izz>0.001</izz>
+      </inertia>
+      <mass>0.114</mass>
+    </inertial>
+
+    <collision name="lidar_collision">
+      <pose>0.215 0 0.13 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.0508</radius>
+          <length>0.18</length>
+        </cylinder>
+      </geometry>
+    </collision>
+
+    <visual name="lidar_visual">
+      <pose>0.215 0 0.13 0 0 0</pose>
+      <geometry>
+        <cylinder>
+          <radius>0.0508</radius>
+          <length>0.18</length>
+        </cylinder>
+      </geometry>
+      <material>
+        <ambient>0.0 0.0 0.0 1.0</ambient>
+        <diffuse>0.0 0.0 0.0 1.0</diffuse>
+        <specular>0.0 0.0 0.0 1.0</specular>
+        <emissive>0.0 0.0 0.0 1.0</emissive>
+      </material>
+    </visual>
+
+    <sensor name="lidar" type="ray">
+      <pose>0.215 0 0.215 0 0 0</pose>
+      <always_on>true</always_on>
+      <visualize>true</visualize>
+      <update_rate>5</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>360</samples>
+            <resolution>1.00000</resolution>
+            <min_angle>0.000000</min_angle>
+            <max_angle>6.280000</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.120000</min>
+          <max>3.5</max>
+          <resolution>0.015000</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="scan" filename="libgazebo_ros_ray_sensor.so">
+        <ros>
+          <remapping>~/out:=scan</remapping>
+        </ros>
+        <output_type>sensor_msgs/LaserScan</output_type>
+        <frame_name>lidar_link</frame_name>
+      </plugin>
+    </sensor>
+  </link>
+  
   <!-- *********************** DRIVE WHEELS ******************************  -->
   <link name="drivewhl_l_link">
     <pose>-0.221 0.23 -0.05 0 1.570796 1.570796</pose>
@@ -193,6 +269,17 @@
   <!-- *********************** CASTER WHEEL ******************************  -->
   <link name='front_caster'>
     <pose>0.217 0 -0.1 0 0 0</pose>
+    <inertial>
+      <inertia>
+        <ixx>0.001</ixx>
+        <ixy>0.000</ixy>
+        <ixz>0.000</ixz>
+        <iyy>0.001</iyy>
+        <iyz>0.000</iyz>
+        <izz>0.001</izz>
+      </inertia>
+      <mass>70.0</mass>
+    </inertial>
     <collision name='collision'>
       <geometry>
         <sphere>
@@ -264,6 +351,12 @@
     <child>gps_link</child>
     <pose>0 0 0 0 0 0</pose>
   </joint>  
+  
+  <joint name="lidar_joint" type="fixed">
+    <parent>base_link</parent>
+    <child>lidar_link</child>
+    <pose>0 0 0 0 0 0</pose>
+  </joint>
 
  <!-- *********************** WHEEL ODOMETRY ***************************    -->
   <plugin name="basic_mobile_bot_diff_drive" filename="libgazebo_ros_diff_drive.so">

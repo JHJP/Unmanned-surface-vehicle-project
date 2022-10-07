@@ -16,7 +16,7 @@ set(_basic_mobile_robot_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT basic_mobile_robot_FIND_QUIETLY)
-  message(STATUS "Found basic_mobile_robot: 0.0.0 (${basic_mobile_robot_DIR})")
+  message(STATUS "Found basic_mobile_robot: 3.0.0 (${basic_mobile_robot_DIR})")
 endif()
 
 # warn when using a deprecated package
