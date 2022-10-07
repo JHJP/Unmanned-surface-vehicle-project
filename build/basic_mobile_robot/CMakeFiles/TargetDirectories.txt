@@ -1,0 +1,9 @@
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/install/strip.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/install/local.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/install.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/list_install_components.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/rebuild_cache.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/edit_cache.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/test.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/basic_mobile_robot_uninstall.dir
+/home/papag/basic_ws/build/basic_mobile_robot/CMakeFiles/uninstall.dir
