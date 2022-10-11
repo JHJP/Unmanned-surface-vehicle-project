@@ -1,6 +1,9 @@
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf_with_gps.yaml
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/config/ekf.yaml
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v6.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v3.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v1.launch.py
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v5.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v2.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/launch/basic_mobile_bot_v4.launch.py
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/meshes/arm_base.stl
@@ -19,6 +22,8 @@
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/meshes/elbow.stl
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.sdf
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/basic_mobile_bot_description/model.config
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/kmou/model.sdf
+/home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/models/kmou/model.config
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/rviz/urdf_config.rviz
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/smalltown.world
 /home/papag/basic_ws/install/basic_mobile_robot/share/basic_mobile_robot/worlds/basic_mobile_bot_world/kmou.world
