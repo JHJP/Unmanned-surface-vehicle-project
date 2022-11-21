@@ -9,6 +9,11 @@ https://automaticaddison.com/the-ultimate-guide-to-the-ros-2-navigation-stack/
 Prerequisites:
 ROS 2 Foxy Fitzroy installed on Ubuntu Linux 20.04
 
+Sourcing
+```
+source /opt/ros/foxy/setup.bash
+```
+
 Launching with a launch file:
 ```
 ros2 launch basic_mobile_robot basic_mobile_bot_v6.launch.py
